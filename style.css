@@ -1,0 +1,118 @@
+body {
+  background: #0f172a;
+  color: black;
+  font-family: 'Times New Roman';
+  margin: 0;
+}
+
+/* NAVBAR */
+nav {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+/* CARD (PROFILE) */
+.card {
+  background: #0ea5e9;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+  margin: 100px auto;
+  width: 300px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+/* FOTO */
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* BUTTON */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+h2 {
+  color: white;
+}
+
+button:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+  transition: 0.2s; 
+}
+
+/* TOMBOL MASUK STORE */
+.enter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* STORE GRID */
+.store {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  padding: 20px;
+}
+
+.product {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product:hover {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+/* INPUT & LIST */
+input {
+  padding: 8px;
+  margin-top: 10px;
+}
+
+li {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+/* MODE BIRU (kalau masih dipakai) */
+.blue {
+  background: blue;
+  color: black;
+}
